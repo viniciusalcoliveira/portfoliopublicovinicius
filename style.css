@@ -551,3 +551,22 @@
     padding: 0 20px;
   }
 }
+@media (max-width: 768px) {
+  .tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tecnologias .card {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .tecnologia-img {
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+}
