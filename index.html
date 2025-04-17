@@ -140,24 +140,29 @@
     <section id="contato" class="contato">
       <div class="container">
         <h2>Fale Comigo</h2>
-        <form id="form-contato" action="https://formsubmit.co/viniciusextreme2299@gmail.com" method="POST">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://viniciusalcoliveira.github.io/portfolio/#inicio">
+     <form 
+  action="https://formsubmit.co/viniciusextreme2299@gmail.com" 
+  method="POST" 
+  target="_blank"
+>
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://viniciusalcoliveira.github.io/portfolio/#confirmado">
 
-          <input type="text" name="meu_nome" placeholder="Seu nome" required />
-          <input type="email" name="meu_email" placeholder="Seu e-mail" required />
-          <input 
-            type="tel" 
-            name="meu_telefone" 
-            placeholder="Seu telefone" 
-            required 
-            pattern="[0-9\s\-\+]{10,15}" 
-            title="Digite entre 10 a 15 números, com ou sem traços" 
-            inputmode="numeric"
-          />
-          <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
-          <button type="submit">Enviar</button>
-        </form>
+  <input type="text" name="meu_nome" placeholder="Seu nome" required />
+  <input type="email" name="meu_email" placeholder="Seu e-mail" required />
+  <input 
+    type="tel" 
+    name="meu_telefone" 
+    placeholder="Seu telefone" 
+    required 
+    pattern="[0-9\s\-\+]{10,15}" 
+    title="Digite entre 10 a 15 números, com ou sem traços" 
+    inputmode="numeric"
+  />
+  <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
         <div id="mensagem-confirmacao" style="display: none; text-align: center; padding: 20px; background-color: #00bfff; color: white; border-radius: 8px; margin-top: 20px;">
           <h3>Mensagem enviada! Em breve entro em contato 🚀</h3>
           <p>Obrigado pela preferência!</p>
