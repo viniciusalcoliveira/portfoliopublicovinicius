@@ -1,0 +1,15 @@
+{
+    "botName": "André",
+    "botDescription": "Oi! Sou o André, assistente virtual do Vinicius. Posso te ajudar com soluções digitais! 💻",
+    "avatarUrl": "https://i.imgur.com/YZzXk6T.png",
+    "stylesheet": "https://cdn.botpress.cloud/webchat/v2.3/themes/dark.css",
+    "layout": {
+      "backgroundColor": "#0d1117",
+      "botMessageColor": "#00bfff",
+      "userMessageColor": "#1f2937"
+    },
+    "conversationTitle": "Fale com o André",
+    "enableReset": false,
+    "enableTranscriptDownload": false
+  }
+  
