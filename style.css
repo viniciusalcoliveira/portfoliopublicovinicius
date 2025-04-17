@@ -466,114 +466,48 @@
 }
 .tecnologias {
   display: flex;
-  gap: 10px; /* Ajuste o espaçamento entre as imagens conforme necessário */
-  justify-content: center; /* Centraliza as imagens na linha */
-  align-items: center; /* Alinha verticalmente as imagens */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 
-.tecnologias img {
-  width: 60px; /* Define a largura das imagens para 20px */
-  height: auto; /* Mantém a proporção das imagens */
+.tecnologias .card {
+  background-color: #1c1c1e;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.3s ease;
 }
-/* Responsividade para telas com até 768px */
-@media (max-width: 768px) {
 
-  .header-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    text-align: center;
-  }
-
-  .hero h2 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .hero p {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .hero .btn {
-    display: block;
-    margin: 1rem auto;
-  }
-
-  .sobre p {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: justify;
-  }
-
-  .tecnologias, .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .certificados p,
-  .contato h2,
-  .subtitulo {
-    text-align: center;
-  }
-
-  form input, form textarea, form button {
-    width: 100%;
-    margin: 0.5rem 0;
-    font-size: 1rem;
-  }
-
-  .footer .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    text-align: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-  }
-
-  .container {
-    padding: 0 20px;
-  }
+.tecnologias .card:hover {
+  transform: scale(1.05);
 }
+
+.tecnologia-img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* MOBILE */
 @media (max-width: 768px) {
   .tecnologias {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
   }
 
   .tecnologias .card {
     width: 100%;
     max-width: 300px;
-    text-align: center;
   }
 
   .tecnologia-img {
-    max-width: 80px;
-    margin-bottom: 10px;
+    width: 60px;
   }
 }
-.tecnologias {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+
   margin-top: 30px;
 }
