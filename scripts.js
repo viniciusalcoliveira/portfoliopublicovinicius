@@ -1,5 +1,6 @@
-document.querySelector("form").addEventListener("submit", function (e) {
-    alert("Mensagem enviada! Em breve entro em contato 🚀");
-    this.reset();
-  });
-  
+const form = document.querySelector("form");
+const mensagemConfirmacao = document.getElementById("mensagem-confirmacao");
+
+form.addEventListener("submit", function () {
+  mensagemConfirmacao.style.display = "block";
+});
